@@ -33,7 +33,7 @@ when "2"
     { title: '花より男子', genre: '学園漫画 恋愛', serialization_started_year: 1992, serialization_end_year: 2004, publisher: 'マーガレット' },
     { title: 'テニスの王子様', genre: 'テニス 少年漫画 スポーツ ', serialization_started_year: 1999, serialization_end_year: 2008, publisher: '週刊少年ジャンプ' },
     { title: 'H2', genre: '少年漫画 野球漫画 恋愛漫画 学園漫画', serialization_started_year: 1992, serialization_end_year: 1999, publisher: '週刊少年サンデー' },
-    { title: 'BAD BOYS', genre: '暴走族漫画 ヤンキー漫画　バトル', serialization_started_year: 1988, serialization_end_year: 1996, publisher: 'ヤングキング' },
+    { title: 'BAD BOYS', genre: '暴走族漫画 ヤンキー漫画 バトル', serialization_started_year: 1988, serialization_end_year: 1996, publisher: 'ヤングキング' },
     { title: '銀魂 ぎんたま', genre: 'SF 時代劇 ギャグ漫画 バトル漫画', serialization_started_year: 2004, serialization_end_year: 2018, publisher: '週刊少年ジャンプ' },
     { title: 'クレヨンしんちゃん', genre: 'ギャグ漫画 青年漫画', serialization_started_year: 1990, serialization_end_year: 2010, publisher: '漫画アクション' }
   ]
