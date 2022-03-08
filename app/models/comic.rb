@@ -1,3 +1,2 @@
 class Comic < ApplicationRecord
-
 end
