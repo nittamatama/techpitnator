@@ -1,4 +1,6 @@
 class ProgressesController < ApplicationController
+  require './app/algorithms/extraction_algorithm'
+
   def new
     @progress = Progress.new
     current_game = Game.find(params[:game_id])
@@ -12,6 +14,9 @@ class ProgressesController < ApplicationController
     progress = current_game.progresses.new(create_params)
     progress.assign_sequence
     progress.save!
+
+    # 絞り込みを実行
+    @extract_comics = ExtractionAlgorithm.new(current_game).compute
 
     next_question = Question.next_question(current_game)
     if next_question.blank?
